@@ -1,3 +1,9 @@
+# ReCoF HLSDK
+
+The Half-Life SDK with Cry of Fear's changes to the structures its engine shares with game code: two more `entvars_t` fields (so `edict_t` is 0x32C bytes), `usercmd_t.is_donator` and `clientdata_t.isdonator`. [ReCoF-AMXX](https://github.com/caixax/ReCoF-AMXX) builds against it for the [ReCoF Server](https://github.com/caixax/ReCoF-Server). Everything else is the original SDK, under its own license (below).
+
+---
+
 Half Life 1 SDK LICENSE
 ======================
 
